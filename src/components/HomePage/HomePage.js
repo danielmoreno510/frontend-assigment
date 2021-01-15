@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 
 import DocRed from '../DocRed'
+import styles from "./styles";
 
 const HomePage = ({ isFetching, getArticles }) => {
 
@@ -9,7 +10,7 @@ const HomePage = ({ isFetching, getArticles }) => {
   }, []);
   
   return (
-    <div>
+    <div style={styles.container}>
       {!isFetching && <DocRed />}
     </div>
   );

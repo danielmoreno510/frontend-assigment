@@ -15,11 +15,11 @@ export default (state = initialState, action) =>
   produce(state, (draft) => {
     switch (action.type) {
       case FETCH_ARTICLES:
-        draft.isFetching = false
+        draft.isFetching = true
         break;
       case PUT_ARTICLES:
         draft.articleList = action.articleList
-        draft.isFetching = true
+        draft.isFetching = false
         break;
       case PUT_IS_FETCHING:
         draft.isFetching = action.isFetching
