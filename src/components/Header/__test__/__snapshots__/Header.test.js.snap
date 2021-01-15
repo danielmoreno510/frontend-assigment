@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component WHEN the component is render THEN should display Header component 1`] = `
+<div
+  style={
+    Object {
+      "background": "#1b80c6",
+      "color": "white",
+      "display": "flex",
+      "fontSize": "14px",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": "12px 48px 12px 32px",
+        }
+      }
+    >
+      <img
+        src="logo.png"
+        style={
+          Object {
+            "height": "44px",
+          }
+        }
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginRight": "48px",
+        }
+      }
+    >
+      <img
+        src="search.png"
+        style={
+          Object {
+            "background": "white",
+            "borderTopLeftRadius": "10px",
+            "height": "24px",
+            "marginRight": "2px",
+            "padding": "3px",
+          }
+        }
+      />
+      <input
+        style={
+          Object {
+            "border": "0px",
+            "borderBottomRightRadius": "10px",
+            "height": "28px",
+            "width": "260px",
+          }
+        }
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+        }
+      }
+    >
+      <img
+        src="home.png"
+        style={
+          Object {
+            "height": "22px",
+            "marginRight": "8px",
+          }
+        }
+      />
+      <div>
+        Inicio
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "borderLeft": "1px solid",
+        "display": "flex",
+        "margin": "10px 0px 10px 0px",
+        "padding": "0px 26px 0px 26px",
+      }
+    }
+  >
+    <img
+      src="settings.png"
+      style={
+        Object {
+          "width": "166px",
+        }
+      }
+    />
+  </div>
+</div>
+`;

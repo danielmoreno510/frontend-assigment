@@ -5,7 +5,5 @@ const mapStateToProps = (state) => ({
   articles: state.articles.articleList,
 });
 
-const HomePageContainer = StoreService.connect(
-  mapStateToProps
-)(DocRed);
+const HomePageContainer = StoreService.connect(mapStateToProps)(DocRed);
 export default HomePageContainer;

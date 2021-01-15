@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocRed component WHEN the component is render THEN should display DocRed component 1`] = `
+<div>
+  <Header />
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <MainArticle />
+    <ArticleList
+      articles={Array []}
+    />
+  </div>
+  <Footer />
+</div>
+`;

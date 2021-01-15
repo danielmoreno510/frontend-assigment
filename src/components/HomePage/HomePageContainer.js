@@ -1,7 +1,5 @@
 import HomePage from "./HomePage";
-import {
-  fetchArticles,
-} from "../../state/actions";
+import { fetchArticles } from "../../state/actions";
 import { StoreService } from "../../state/StoreService.js";
 
 const mapStateToProps = (state) => ({
@@ -11,7 +9,7 @@ const mapDispatchToProps = (dispatch) => {
   return {
     getArticles: () => {
       dispatch(fetchArticles());
-    }
+    },
   };
 };
 const HomePageContainer = StoreService.connect(

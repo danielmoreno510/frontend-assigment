@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component WHEN the component is render THEN should display Footer component 1`] = `
+<div
+  style={
+    Object {
+      "background": "#1b80c6",
+      "color": "white",
+      "display": "flex",
+      "fontSize": "14px",
+      "justifyContent": "space-between",
+      "paddingRight": "32px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "padding": "12px 0px 12px 32px",
+      }
+    }
+  >
+    <img
+      src="logo.png"
+      style={
+        Object {
+          "height": "44px",
+        }
+      }
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+      }
+    }
+  >
+    Preguntas Frecuentes
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+      }
+    }
+  >
+    Contáctos
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+      }
+    }
+  >
+    Información
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "color": "#ffffff75",
+        "display": "flex",
+      }
+    }
+  >
+    DocRed © 2019. Todos los derechos reservados
+  </div>
+</div>
+`;
