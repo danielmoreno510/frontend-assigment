@@ -1,0 +1,3 @@
+export const FETCH_ARTICLES = 'FETCH_ARTICLES'
+export const PUT_ARTICLES = 'PUT_ARTICLES'
+export const PUT_IS_FETCHING = 'PUT_IS_FETCHING'
