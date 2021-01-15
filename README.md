@@ -35,3 +35,13 @@ Puntos extras:
 - Unit testing.
 - Linting y Prettier
 - Docker
+
+
+Como correr el proyecto:
+----
+- git checkout feature/web-docred
+- npm run install.
+- npm start
+- json-server --watch mockup/article.json --port 8080
+- Correr los tests: npm run test
+- Correr los tests: npm run lint
